@@ -29,7 +29,7 @@ nav a {
 }
 
 nav li:hover {
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid rgb(238, 43, 238);
 
 }
 
@@ -52,4 +52,55 @@ nav {
     font-size: 35px;
     font-weight: 700;
     margin: 20px 25px;
+}
+
+/* banner section */
+.banner-section {
+    /* width fixed */
+    max-width: 1920px;
+    /* border: 1px solid rgb(248, 70, 100); */
+    background-color: #FBEEF1;
+
+}
+
+/* banner text contain section */
+.banner-content {
+    display: flex;
+    /* border: 2px solid brown; */
+    width: 90%;
+    margin: 0px auto;
+}
+
+.banner-text {
+    /* height: 50%; */
+    height: 850px;
+    width: 50%;
+    /* border: 1px solid rgb(241, 57, 32); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-btn {
+    margin-top: 30px;
+    margin-right: 650px;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    color: #FBEEF1;
+
+}
+
+/* banner image section */
+.banner-image {
+    height: 800px;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* border: 1px solid purple;  */
 }
