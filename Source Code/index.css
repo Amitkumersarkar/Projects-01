@@ -146,10 +146,10 @@ nav li:hover {
 /* instagram-section-container */
 .instagram-section-container {
     width: 90%;
-    height: 1050px;
+    height: 1100px;
     margin: 0 auto;
     margin-top: 140px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .instagram-text-content {
@@ -170,15 +170,15 @@ nav li:hover {
 }
 
 .first-instagram-image img {
-    height: 396px;
-    width: 342px;
+    height: 400px;
+    width: 345px;
     /* border: 2px solid purple; */
 }
 
-.first-instagram-image {
-    width: 100%;
-    height: 100%;
-    margin-left: 55px;
+.first-instagram-image img {
+    width: 90%;
+    height: 90%;
+    margin-left: 22px;
     margin-top: 15px;
     /* border: 2px solid violet; */
 }
