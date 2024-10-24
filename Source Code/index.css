@@ -25,6 +25,7 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 50px;
+    padding: 10px;
     justify-items: flex-end;
 }
 
@@ -88,4 +89,56 @@ nav li:hover {
     width: 50%;
     height: 650px;
 
+}
+
+/* feature-img-container */
+.feature-img-container {
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 140px;
+    /* border: 2px solid red; */
+}
+
+.featured-title {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid violet; */
+}
+
+.featured-img {
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
+
+}
+
+.first-img,
+.second-img,
+.third-img {
+    width: 33%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 0 0;
+    border: 2px solid blue;
+}
+
+#first {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#second {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#third {
+    background: rgba(71, 125, 17, 0.15);
 }
