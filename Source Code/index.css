@@ -35,7 +35,7 @@ nav a {
 }
 
 nav li:hover {
-    border-bottom: 1px solid crimson;
+    border-bottom: 2px solid crimson;
 }
 
 /* banner section styling */
@@ -107,7 +107,7 @@ nav li:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     /* border: 2px solid violet; */
 }
 
@@ -128,7 +128,7 @@ nav li:hover {
     justify-content: center;
     align-items: center;
     border-radius: 50% 50% 0 0;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 #first {
@@ -141,4 +141,50 @@ nav li:hover {
 
 #third {
     background: rgba(71, 125, 17, 0.15);
+}
+
+/* instagram-section-container */
+.instagram-section-container {
+    width: 90%;
+    height: 1050px;
+    margin: 0 auto;
+    margin-top: 140px;
+    border: 2px solid green;
+}
+
+.instagram-text-content {
+    height: 132px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* border: 2px solid red; */
+}
+
+.first-instagram-image {
+    width: 100%;
+    height: 100%;
+}
+
+.first-instagram-image img {
+    height: 396px;
+    width: 342px;
+    /* border: 2px solid purple; */
+}
+
+.first-instagram-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 55px;
+    margin-top: 15px;
+    /* border: 2px solid violet; */
+}
+
+.instagram-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
