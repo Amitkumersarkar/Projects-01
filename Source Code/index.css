@@ -195,8 +195,7 @@ nav li:hover {
     height: 450px;
     margin: 0 auto;
     margin-top: 140px;
-    border: 2px solid red;
-    background-image: url('../Rectangle\ 9.png');
+    /* border: 2px solid red; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -206,6 +205,7 @@ nav li:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('../Rectangle\ 9.png');
 }
 
 .deals-content p {
